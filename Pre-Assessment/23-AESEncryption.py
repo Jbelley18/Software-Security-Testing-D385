@@ -1,4 +1,14 @@
 """
+
+Ciphers (encrypted_plain_text instead of just test
+
+encrypted_text = cipher.encrypt(plain_text)
+
+
+
+I want to add to this! For the encrypt question on the PA, the answer is encrypted_text = cipher.encrypt(plain_text.encode()).
+
+
 DOS attacks on network traffic are on the rise. In this lab, use AES encryption to ensure your TCP is not vulnerable.
 
 Using the provided template code, fix the encrypt function which should pass the plain_text to be encrypted. Use line 15 in the templated code to encrypt the variable input cipher.

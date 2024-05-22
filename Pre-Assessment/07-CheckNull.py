@@ -1,4 +1,20 @@
 """
+
+Check a Null using assertion error ( May change the x to z)
+
+if x is None:
+
+print("x is a null value")
+
+return y
+elif y is None: Make sure to use elif not else!
+
+print("y is a null value")
+
+return x
+return x * y
+
+
 For this lab you will use unit testing to check a null setting using assertions. Use the commented template code provided to do the following:
 
 Use the assertIsNone() function from Python’s unittest library to verify whether an input value is “None” or “not” using a test case. A Boolean value should be returned by this function based upon the assert condition that the two parameter inputs are received. .

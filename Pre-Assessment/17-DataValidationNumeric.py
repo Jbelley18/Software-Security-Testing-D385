@@ -1,4 +1,10 @@
 """
+
+Numeric check (Instead of (zipCode), its (zip_Code_Input)
+
+zip_check = int(zipCode)
+
+
 It is important to ensure that user input is valid before acceptance to verify that the data received is of the expected data type.
 
 Using the provided template code, validate that the zip code input by the user is an integer data type.

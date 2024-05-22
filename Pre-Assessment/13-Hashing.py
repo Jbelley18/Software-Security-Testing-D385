@@ -1,4 +1,13 @@
 """
+
+7. Hexes (Will need to add in 3, and 'hex in the digest part)
+
+d= hashlib.sha3_256(enc_pwd)
+
+hash = d.hexdigest()
+
+
+
 Nearly everything is done online where users can sign-up using a username and password. Malicious hackers can steal your password and access your bank account or any personal information. Passwords are stored using encryption or hashing. Both methods provide valuable capabilities; however, symmetric encryption is a reversible operation and based on the use of an encryption key. Anyone possessing the key can decrypt an encrypted value to obtain the original value.
 
 The hashing operation is not reversible.

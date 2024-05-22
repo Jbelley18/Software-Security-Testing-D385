@@ -1,4 +1,13 @@
 """
+
+
+
+Assertions (changed declaration Temperature to temp_check, and the string of text is changed)
+
+assert Temperature >= 0, "Colder than zero degrees Celsius!"
+
+
+
 Assertions can be an excellent tool if you're looking for a way to increase the effectiveness of your debugging and testing processes. In the following lab, you will demonstrate the basics of using assert statements, including how to write logical statements and when to use assertion statements in your code.
 
 Using the templated code provided, write an assertion statement where noted in the template code. The assertion statement needs to determine whether an integer input is below freezing using the phrase: "Colder than zero degrees Celsius!".

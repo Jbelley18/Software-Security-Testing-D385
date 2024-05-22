@@ -1,4 +1,34 @@
 """
+
+
+Check data to verify values null (personally did not complete this question on the test, just left it blank)
+
+if type(wg_int) == str:
+
+try:
+
+cast_int = int(wg_int)
+
+return(isinstance(wg_int, int))
+
+except Exception as e:
+
+return False
+
+else:
+
+return(isinstance(wg_int, int))
+
+if wg_string:
+
+return True
+
+else:
+
+return False
+
+
+
 Question
 External data quality can affect downstream systems, reporting, and metrics and cause vulnerabilities in our systems. Using the templated code provided, write one method to check if a string is not null and a separate method to check if a string contains all numbers.
 

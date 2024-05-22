@@ -1,4 +1,18 @@
 """
+
+
+Rate limiting (BUCKETS) (Only asked for the if else portion)
+
+bucket = self.bucket + time_passed * (self.tokens / self.per)
+
+if (bucket > self.rate):
+
+self.bucket = self.rate
+if (bucket < 1):
+
+pass
+
+
 With rate limiting, a unique IP address is restricted from making too many requests in a fixed period of time.
 
 The code snippet below implements rate limiting using a "Token Bucket." Each time a message is received: the bucket is checked for tokens. If the bucket has 1 or more tokens, the algorithm removes one token and sends the message. If no tokens remain in the bucket, the algorithm drops the message.

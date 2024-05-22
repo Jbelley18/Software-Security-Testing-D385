@@ -1,4 +1,16 @@
 """
+Templates (Changed name declaration to admin_name, use this instead of name)
+
+name_template = Template("Hello, my name is $name.")
+
+greeting = name_template.substitute(name=name)
+
+
+
+print(greeting)
+
+
+
 An attacker was able to get access to sensitive information. Fix the templated code provided below to make it more secure.
 
 Sample Input:

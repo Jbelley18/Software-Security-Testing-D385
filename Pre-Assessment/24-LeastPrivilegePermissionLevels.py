@@ -1,4 +1,17 @@
 """
+
+Least privilege broken (This was the exact same)
+
+if result:
+
+os.chmod(filename, stat.S_IRWXU)
+
+else:
+
+os.chmod(filename, stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
+
+
+
 Using the template code provided, fix the code that is vulnerable to least privilege. You will need to change the permission level appropriately for each level of users as follows:
 
 Admin should have permission to Read, Write, and Execute

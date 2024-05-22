@@ -1,4 +1,13 @@
 """
+
+Serials (The test will have you create an if/else statement instead of fixing this code.)
+
+new key = generate_key(serialized_data)
+
+return deserialize(serialized_data)
+
+
+
 To protect against remote code execution, it is important to validate incoming data for deserialization . One way to ensure the integrity of incoming data is to validate it using generated digest keys.
 
 Using the provided template code, complete the function to validate incoming serialized data. For the purpose of this lab, you have access to the generate_key() and deserialize() functions.
