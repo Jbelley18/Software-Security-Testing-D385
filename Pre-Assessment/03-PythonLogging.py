@@ -1,4 +1,7 @@
 """
+
+logging.error('The exception that occured is: ' +str(e))
+
 The purpose of this lab is to introduce students to the process of creating, accessing, and generating log files using code. Use the template provided in order to write code that outputs log information with the basic configuration of level name and message, based on the information in the template.
  
 When you divide a number by zero, write an error message to the log.

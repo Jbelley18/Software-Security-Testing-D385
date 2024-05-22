@@ -1,4 +1,12 @@
 """
+
+Broken Object level authorization (Exact same except getuserid and ownerid have different names, and you must change the string of text in print function).
+
+if(GetUserID() == ownerID):
+
+print("This is the user data")
+
+
 When all resources for a certain user are requested, information such as a userID might be passed on to the server as part of the request.
 
  <https://website.com/get_users_search_history?userID=4567>
